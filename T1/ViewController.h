@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic) CGFloat navHeight;
 
-
+- (CGFloat)getNavBarHeight;
+- (CGFloat)getStatusBarHeight;
 @end
 
